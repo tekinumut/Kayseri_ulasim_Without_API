@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/imageView_htgmap"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_bus_24dp_primary"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/non_lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/imageView_htgmap"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_htgmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kartal 10 durağına ilerleyiniz"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/snippet_htgmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Kartal 10 durağından şehir merkezi battalgaiz osmanlı hattına bininiz meyden park önü durağında ininiz" />
+
+    </LinearLayout>
+</RelativeLayout>

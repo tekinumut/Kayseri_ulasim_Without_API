@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/vefat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:text="OSMAN CEMAL NERGİZ"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/vefat_ana_baba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vefat_name"
+        android:layout_marginTop="3dp"
+        android:text="Ana / Baba Adı: KIYMET / ARİF" />
+
+    <TextView
+        android:id="@+id/vefat_dogum_yeri_yili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vefat_ana_baba"
+        android:layout_marginTop="3dp"
+        android:text="Doğum Yeri / Yılı: " />
+
+    <TextView
+        android:id="@+id/vefat_yer_vakit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vefat_dogum_yeri_yili"
+        android:layout_marginTop="3dp"
+        android:text="Mezarlık: " />
+
+    <TextView
+        android:id="@+id/vefat_mezarlik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vefat_yer_vakit"
+        android:layout_marginTop="3dp"
+        android:text="Yer / Vakit: " />
+
+    <TextView
+        android:id="@+id/vefat_taziye_adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vefat_mezarlik"
+        android:layout_marginTop="3dp"
+        android:text="Taziye Adresi: " />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vefat_taziye_adres"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_mezarlik_adresi"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/lightPurpleButton"
+            android:text="MEZARLIK ADRESİ"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_taziye_adresi"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/lightPurpleButton"
+            android:text="TAZİYE ADRESİ"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

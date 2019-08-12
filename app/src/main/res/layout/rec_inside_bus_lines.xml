@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp"
+    tools:ignore="HardcodedText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_border_white_gray"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/non_rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bus_logo" />
+
+            <TextView
+                android:id="@+id/line_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/image1"
+                android:text="563-15 TEMMUZ CAD. ANAYURT (YOĞUNBURÇ -> TALAS)"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+
+            android:id="@+id/rec__kalan_zaman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/non_rel1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="1.25dp"
+            android:text="En yakın 1. otobüs yaklaşık 12 dakika sonra gelecek. \nEn yakın 2. otobüs yaklaşık 32 dakika sonra gelecek."
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

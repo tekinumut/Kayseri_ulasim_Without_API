@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Akıllı Kayseri</string>
+    <string name="duraklar">Duraklar</string>
+    <string name="bize_ulas">Bize ulaşın</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="geri_bildirim">Geri Bildirim Gönder</string>
+    <string name="hakkinda_aciklama">Bu uygulamanın hiçbir resmi geçerliliği yoktur.\nProje tarafımca bireysel olarak yapılmıştır.\n\nİletişim için :
+    bm.umuttekin@gmail.com</string>
+    <string name="adres_bilgileri">&#160;&#160;Serçeönü Mahallesi Mustafa Kemal Paşa Bulvarı No: 15 Kocasinan / KAYSERİ</string>
+    <string name="adres">Adres:</string>
+
+    <string name="google_map_API_key">A????</string>
+    <string name="nav_ana_sayfa">Ana Sayfa</string>
+    <string name="yol_tarifi">Yol Tarifi</string>
+
+    <!-- About Room Database-->
+
+    <string name="favorites_database_name">favorites_database</string>
+    <string name="eczane_database_name">eczane_database</string>
+    <string name="booleanFavorites">amIinFavorites</string>
+    <string name="ek_ozellikler">Ek Özellikler</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="bundle_news_title">title</string>
+    <string name="bundle_news_image_url">image_url</string>
+    <string name="bundle_news_content">content</string>
+    <string name="bundle_news_page_content_url">page_content_url</string>
+    <string name="noDataTaken">Veriler alınırken bir hata meydana geldi</string>
+    <string name="loading_news">Haberler Yükleniyor</string>
+    <string name="show_myFavs">Favorilerimi Göster</string>
+    <string name="show_all">Hepsini Göster</string>
+    <string name="barcode">Karekod</string>
+    <string name="close">Kapat</string>
+    <string name="bundle_name">name</string>
+    <string name="bundle_latitude">latitude</string>
+    <string name="bundle_longitude">longitude</string>
+    <string name="bundle_snippet">snippet</string>
+    <string name="bundle_whereyoufrom">whereyoufrom</string>
+    <string name="choose_title">Tarif Yöntemi Seç</string>
+    <string name="choose_my_app">Uygulama Üzerinde Git</string>
+    <string name="choose_my_map">Harita Uygulamamı Kullan</string>
+    <string name="choose_nav">Navigasyon ile Yol Tarifi Al</string>
+    <string name="about_title_text">Kayseri Akıllı Ulaşım</string>
+    <string name="gecen_hatlar">Geçen Hatlar</string>
+    <string name="no_bus_data">Gelen bir otobüs bulunamadı</string>
+    <string name="nobet24saat">24 Saat Açık</string>
+    <string name="nobetgece1">Gece 01.00\'a kadar Açık</string>
+    <string name="eczane_name">bundle_eczane_name</string>
+    <string name="eczane_adres">bundle_eczane_adres</string>
+    <string name="eczane_phone">bundle_eczane_phone</string>
+    <string name="eczane_latitude">bundle_eczane_latitude</string>
+    <string name="eczane_longitude">bundle_eczane_longitude</string>
+    <string name="bundle_bus_no">bus_no</string>
+    <string name="bundle_where_busline">where_busline</string>
+    <string name="gececek_otobusler">Geçecek Otobüsler</string>
+    <string name="hepsi_haritada">HEPSİNİ HARİTADA GÖSTER</string>
+    <string name="haberler">Haberler</string>
+    <string name="kayBis">Kaybis</string>
+    <string name="eczaneler">Nöbetçi Eczaneler</string>
+    <string name="vefat">Vefat Bilgileri</string>
+    <string name="otoparklar">Otoparklar</string>
+    <string name="nasil_giderim">Nasıl Giderim</string>
+    <string name="noDataFound">Aramalarınıza uygun bir kayıt bulunamadı</string>
+    <string name="goto_stop">Durağa git</string>
+    <string name="start_point">Başlangıç Noktası</string>
+    <string name="stop_point">Gidiş Noktası</string>
+    <string name="howtogo_text">Nasıl Giderim ?</string>
+    <string name="bundle_mesafe">mesafe</string>
+    <string name="bundle_bus_line">bus_line</string>
+    <string name="bundle_bus_line_kod">bus_line_kod</string>
+    <string name="bundle_bus_line_name">bus_line_name</string>
+    <string name="for_gelistiriciler">Geliştiriciler için</string>
+    <string name="app_codes_about">Uygulama kaynak kodları</string>
+    <string name="gizlilik_politikasi">Gizlilik Politikası</string>
+    <string name="gizlilik_oku">Gizlilik Politikasını okumak için tıkla</string>
+
+</resources>

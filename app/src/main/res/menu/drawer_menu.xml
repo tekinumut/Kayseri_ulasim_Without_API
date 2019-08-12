@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_page"
+            android:icon="@drawable/ic_main_page"
+            android:title="@string/nav_ana_sayfa" />
+        <item
+            android:id="@+id/nav_stations"
+            android:icon="@drawable/ic_stations"
+            android:title="@string/duraklar" />
+        <item
+            android:id="@+id/nav_nasil_giderim"
+            android:icon="@drawable/ic_directions"
+            android:title="@string/nasil_giderim" />
+
+        <item
+            android:id="@+id/nav_eczaneler"
+            android:icon="@drawable/ic_eczane"
+            android:title="@string/eczaneler" />
+        <item
+            android:id="@+id/nav_vefat"
+            android:icon="@drawable/ic_vefat"
+            android:title="@string/vefat" />
+        <item
+            android:id="@+id/nav_otopark"
+            android:icon="@drawable/ic_park"
+            android:title="@string/otoparklar" />
+        <item
+            android:id="@+id/nav_bisiklet"
+            android:icon="@drawable/ic_bike"
+            android:title="@string/kayBis" />
+        <item
+            android:id="@+id/nav_haberler"
+            android:icon="@drawable/ic_haber"
+            android:title="@string/haberler" />
+
+    </group>
+
+    <item android:title="@string/ek_ozellikler">
+        <menu>
+       <!--     <item
+                android:id="@+id/nav_ayarlar"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/ayarlar" />
+                -->
+            <item
+                android:id="@+id/nav_bize_ulas"
+                android:icon="@drawable/ic_contant_me"
+                android:title="@string/bize_ulas" />
+            <item
+                android:id="@+id/nav_hakkinda"
+                android:icon="@drawable/ic_info"
+                android:title="@string/hakkinda" />
+        </menu>
+    </item>
+
+</menu>

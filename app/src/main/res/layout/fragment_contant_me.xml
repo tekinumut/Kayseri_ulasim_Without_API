@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <TextView
+        android:id="@+id/nonimportant_textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/nonimportant_lin_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nonimportant_textview1"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adres"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/adres_bilgileri"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- <fragment
+          android:id="@+id/mapView1"
+          android:name="com.google.android.gms.maps.MapFragment"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/nonimportant_lin_layout1"
+          android:layout_alignBottom="@id/nonimportant_view1"
+          android:layout_marginBottom="15dp"
+          map:liteMode="true" />
+  -->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nonimportant_lin_layout1"
+        android:layout_alignBottom="@id/nonimportant_view1"
+        android:layout_marginBottom="15dp">
+
+    </com.google.android.gms.maps.MapView>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spin_map_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nonimportant_view1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:gravity="end"
+        android:padding="5dp" />
+
+    <View
+        android:id="@+id/nonimportant_view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/geriBildirim1"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/geriBildirim1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/geriBildirim"
+        android:layout_marginTop="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="bm.umuttekin@gmail.com adresine bildirim gönder"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/geriBildirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nonimportant_view2"
+        android:layout_marginTop="2dp"
+        android:drawableStart="@mipmap/contactme_icon"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/geri_bildirim"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/nonimportant_view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/nonimportant_view3"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/nonimportant_view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/darker_gray" />
+
+
+</RelativeLayout>

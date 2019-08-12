@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+
+    <RelativeLayout
+        android:id="@+id/non_rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/eczane_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/eczane_nobet_turu"
+            android:text="YENİ HİLAL ECZANE"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/eczane_nobet_turu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:text="Gece 01.00'a kadar çık" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/eczane_adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/non_rel1"
+        android:layout_marginTop="3dp"
+        android:layout_toStartOf="@id/eczane_ilce"
+        android:text="Kiçiköy Mah. Kayabağlar Cad. No: 13/B TALAS
+        (Yeniköy Sağlık Ocağı (ASM) Yakını Altınoluk Yolu Zeren Caddesi Üzeri)" />
+
+
+    <TextView
+        android:id="@+id/eczane_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eczane_adres"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:text="Telefon: 352 - 336 36 11"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eczane_ilce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eczane_phone_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:text="KOCASİNAN"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eczane_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eczane_phone_number"
+        android:layout_marginTop="5dp"
+        android:text="Uzaklığınız: 300 m"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eczane_distance"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_eczane_ara"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="150dp"
+            android:layout_height="35dp"
+            android:background="@color/lightPurpleButton"
+            android:text="Ara"
+            android:textColor="@color/white"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_eczane_yol_Tarifi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@color/lightPurpleButton"
+            android:text="Yol Tarifi Al"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

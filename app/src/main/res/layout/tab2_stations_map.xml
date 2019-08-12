@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/make_fullscreen"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/fullscreen"
+        app:layout_constraintStart_toStartOf="@+id/mapViewTab2"
+        app:layout_constraintTop_toTopOf="@+id/mapViewTab2" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapViewTab2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.gms.maps.MapView>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView_tab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:defaultQueryHint="Durak aramak için tıkla"
+        app:iconifiedByDefault="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapViewTab2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_tab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView_tab2" />
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spin_map_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/mapViewTab2"
+        app:layout_constraintStart_toStartOf="@+id/mapViewTab2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

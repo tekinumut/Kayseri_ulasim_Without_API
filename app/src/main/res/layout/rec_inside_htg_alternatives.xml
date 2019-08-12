@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:id="@+id/non_rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/walking" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/image3"
+            android:layout_toEndOf="@id/image1"
+            android:src="@drawable/right_arrow_dot" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/durak" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/image5"
+            android:layout_toEndOf="@id/image3"
+            android:src="@drawable/right_arrow_dot" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/end_flag" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/non_lin1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/non_rel1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/destination_konumum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.4"
+            android:text="13300 m" />
+
+        <TextView
+            android:id="@+id/destination_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.5"
+            android:text="300 m" />
+
+
+        <TextView
+            android:id="@+id/destination_end"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="300 m" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/destination_total_yurume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/non_lin1"
+        android:layout_marginTop="10dp"
+        android:text="Toplam yürümeniz gereken mesafe: 500m" />
+
+    <TextView
+        android:id="@+id/destination_total_hat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destination_total_yurume"
+        android:layout_marginTop="5dp"
+        android:text="Otobüsün gideceği toplam mesafe : 3 km" />
+
+</RelativeLayout>
