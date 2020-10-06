@@ -1,9 +1,9 @@
 # Kayseri Ulaşım
 Kayseri ulaşım Kayseri için oluşturulmuş bir akıllı şehir mobil uygulamasıdır. API'ler güvenlik açısından gizlenmiştir bu yüzden mevcut kod ile derlenen uygulama çalışmaz.
 
-Uygulamaya Google Play üzerinden erişmek için [tıklayınız.](https://play.google.com/store/apps/details?id=com.Mtkn.kayseri_ulasim)
+Uygulama önemli verilerin artık belediyeden alınamaması üzerinden Google Play'den kaldırılmıştır.
 
-Uygulamayı APK dosyasını indirerek açabilirsiniz. İndirmek için [tıklayınız.](https://drive.google.com/file/d/1wiElYSwDRwycenYoW6Sco8HQ0gwTaf3q/view)
+Uygulamayı APK dosyasını indirerek açabilirsiniz. İndirmek için [tıklayınız.](https://drive.google.com/file/d/12t3HjntvwXHJ5vW_hE_IqkuvHAFnpQKC/view)
 
 ## Uygulamanın Özellikleri
 
